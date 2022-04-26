@@ -1,0 +1,23 @@
+{
+  "name": "forkify",
+  "version": "1.0.0",
+  "description": "Recipe library",
+  "source": "index.html",
+  "browserslist": "> 0.5%, last 2 versions, not dead",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html --no-optimize"
+  },
+  "author": "Kim Chi",
+  "license": "ISC",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.5.0",
+    "parcel": "^2.5.0",
+    "sass": "^1.50.1"
+  },
+  "dependencies": {
+    "core-js": "^3.22.2",
+    "fracty": "^1.0.10",
+    "regenerator-runtime": "^0.13.9"
+  }
+}
